@@ -1,0 +1,89 @@
+﻿<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="random" id="3yt*_B2#*_HREPdt|kLu" x="316" y="26">
+    <next>
+      <block type="time" id="G.X#Vp0Q+F[T}ih)}v{9">
+        <next>
+          <block type="importgpiozero" id="nEPDz3Cl(ym)8+tYTKig">
+            <next>
+              <block type="ledset" id="X|xB1~(4P#Rf~mtI%Cz3">
+                <field name="led">led</field>
+                <field name="pin">18</field>
+                <next>
+                  <block type="buttonset" id="`U`Eg=(V^|Kyd3)Ym`5D">
+                    <field name="button">YellowButton</field>
+                    <field name="pin">14</field>
+                    <next>
+                      <block type="buttonset" id="Q!de0p}+fi!J@jx8{/jZ">
+                        <field name="button">BlueButton</field>
+                        <field name="pin">25</field>
+                        <next>
+                          <block type="ledaction" id="gVPFXBc?2Q1_(:lpl6O@">
+                            <field name="led">led</field>
+                            <field name="action">on</field>
+                            <field name="bracket"></field>
+                            <next>
+                              <block type="sleep" id="x(w_UR8Sii:ehw~:Ay:9">
+                                <field name="sleepTime">random.uniform(5,10)</field>
+                                <next>
+                                  <block type="ledaction" id="f`x;m71;nO@liJex5Wlw">
+                                    <field name="led">led</field>
+                                    <field name="action">off</field>
+                                    <field name="bracket"></field>
+                                    <next>
+                                      <block type="define" id="%]TuRAXiKCvUGpG;)i]r">
+                                        <field name="1">pressed</field>
+                                        <field name="2">button</field>
+                                        <statement name="DO">
+                                          <block type="ifequals" id="N3A^7!rJ-sh)a#y`{fzC">
+                                            <field name="this">button.pin.number</field>
+                                            <field name="that">14</field>
+                                            <statement name="DO">
+                                              <block type="varprint" id="bPA]kn03+ZZ;/@6IUWR^">
+                                                <field name="var">YellowButton + 'won the game'</field>
+                                                <next>
+                                                  <block type="else" id="zWQT+Ux3s[7A.JeU|.;g">
+                                                    <statement name="DO">
+                                                      <block type="varprint" id="fcsliR#SX5ap}L3~NS3(">
+                                                        <field name="var">BlueButton + 'won the game'</field>
+                                                      </block>
+                                                    </statement>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </statement>
+                                          </block>
+                                        </statement>
+                                        <next>
+                                          <block type="buttonvar" id="{v%1[D0{Xg;0]b[gT3n}">
+                                            <field name="button">YellowButton</field>
+                                            <field name="action">when_pressed</field>
+                                            <field name="act">pressed</field>
+                                            <next>
+                                              <block type="buttonvar" id="__-_Q;4L/Z*,tc+bZNGG">
+                                                <field name="button">BlueButton</field>
+                                                <field name="action">when_pressed</field>
+                                                <field name="act">pressed</field>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
