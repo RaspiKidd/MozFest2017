@@ -76,3 +76,20 @@ Your code should now look like this:
 Now run your code by clicking on ![Run](Images/Run1.png) and your light should now come on for a random amount of time between 5 and 10 seconds.
 
 ## Coding the Buttons
+Now that the LED is working, it is time to get the buttons working, so you can detect which player wins.
+
+1. Go to the ![gpiozero menu](Images/GPIO_Zero.png) then the ![Inputs menu](Images/Inputs.png) click on ![Button](Images/Button.png) Now locate the ![button = Button()](Images/Button_Pin.png) and drag it to the codeing area and attach it under ![led = LED()](Images/LED_Pin.png)
+
+2. Click on the little arrow next to *button* to display this menu ![button options](Images/Button_Menu.png) and click Rename variable you will get a text box lke this ![Text Box](Images/TextBox.png) and type *right_button*.
+
+3. Click inbetween the () and type *14*.
+
+4. Add another ![button = Button()](Images/Button_Pin.png) block under the other button block.
+
+5. Now complete step *2* again this time renaming the button *left_button*.
+
+6. Click inbetween the () and type *25*.
+
+Your code should look like this:
+
+![Code block 3](Images/Code03.png)  
