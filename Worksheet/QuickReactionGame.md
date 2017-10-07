@@ -93,3 +93,23 @@ Now that the LED is working, it is time to get the buttons working, so you can d
 Your code should look like this:
 
 ![Code block 3](Images/Code03.png)  
+
+At the end of the code we are now going to add a function, that will be called everytime a button is pressed.
+
+7. go to the ![Basic Menu](Images/Basic.png) and find the ![def  ()](Images/def.png) drag it to the coding area and attach it at the bottom of the code. In the first blank space type *pressed* and in the second blank space between the () type *button*.
+
+8. Back in the ![Basic Menu](Images/Basic.png) locate the ![print](Images/print.png) and attach it inbetween the ![def](Images/def.png) block. Within the () of the print block type *str(button.pin.number) + 'won the game'*.
+
+Your code should look like this:
+
+![code04](Images/Code04.png)
+
+9. Now we need to add the code to the buttons so call the function when a button is pressed. Go to the ![gpiozero menu](Images/GPIO_Zero.png) -> ![Inputs](Images/Inputs.png) -> ![Button](Images/Button.png) and locate the ![button. = ](Images/button_equals.png) drag it to the coding area and attach it at the bottom of your code. Click on the arrow next to button from the menu pick right_button. In the first blank space type *when_pressed* in the next blank space type *pressed* this will call the function when the right button is pressed.
+
+10. Do the same as above, but picking the left_button from the menu. This will now call the function when the left button is pressed.
+
+Your completed code will should look like this:
+
+![code05](Images/Code05.png)
+
+Now grab a friend and try out your game.
