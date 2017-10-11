@@ -113,3 +113,6 @@ Your completed code will should look like this:
 ![code05](Images/Code05.png)
 
 Now grab a friend and try out your game.
+
+## Getting Player Names
+Lets get players names, so the program will tell you who won, rather than which button was pressed.
