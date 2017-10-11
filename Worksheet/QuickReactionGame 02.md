@@ -17,6 +17,8 @@ Using the components within this kit create the circuit below.
 
 ![Reaction Diagram](Images/Reaction.png)
 
+<div class="page-break"></div>
+
 ## Opening EduBlocks
 
 If EduBlocks is not already open double click on ![EduBlocks Logo](Images/EduBlocks.png) This should be located on your Desktop.
@@ -44,6 +46,8 @@ If your LED does not turn on for 5 seconds and turn off again. you need to go ba
 ## Adding an Elemment of Surprise
 The object of the game is to see who can press their button first when the LED goes off, so to make this better would be if the length of time the LED stayed on were random. You need to edit your code to make this happen.
 
+<div class="page-break"></div>
+
 ### Code
 ![Code 02](Images/Code02.png)
 
@@ -59,6 +63,8 @@ Now that the LED is working, it is time to get the buttons working, so you can d
 
 * To locate the blue code blocks click on ![gpiozero](Images/GPIO_Zero.png) --> ![Inputs](Images/Inputs.png) --> ![Button](Images/Button.png)
 
+<div class="page-break"></div>
+
 ## Writing the Function
 At the end of the code we are now going to add a function, that will be called everytime a button is pressed.
 
@@ -69,6 +75,8 @@ At the end of the code we are now going to add a function, that will be called e
 ## Adding the function to the buttons
 We now need to add code to the buttons, so when they are pressed they call the function that we created
 
+<div class="page-break"></div>
+
 ### Code
 
 ![code05](Images/Code05.png)
@@ -77,3 +85,20 @@ Now grab a friend and try out your game.
 
 ## Getting Player Names
 Lets get players names, so the program will tell you who won, rather than which button was pressed.
+
+To add the player names locate ![ = ](Images/Blank.png) and edit them to look like the code below.
+
+<div class="page-break"></div>
+
+### Code
+
+![Code 06](Images/Code06.png)
+
+## Editing the function
+
+We now need to edit our function to output the name of the winner.
+
+<div class="page-break"></div>
+
+### Code
+![code 07](Images/Code07.png)
