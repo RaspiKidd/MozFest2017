@@ -28,8 +28,6 @@ When programming a project it makes sense to break it down into sections so you 
 
 Lets start with coding the LED.
 
-### Code
-
 ![Controlling LED code](Images/Code01.png)
 
 * To locate the pink blocks click on  ![Basic](Images/Basic.png)
@@ -46,9 +44,6 @@ If your LED does not turn on for 5 seconds and turn off again. you need to go ba
 ## Adding an Elemment of Surprise
 The object of the game is to see who can press their button first when the LED goes off, so to make this better would be if the length of time the LED stayed on were random. You need to edit your code to make this happen.
 
-<div class="page-break"></div>
-
-### Code
 ![Code 02](Images/Code02.png)
 
 To add the element of surprise we need to add the random library, which will be found in the ![Basic](Images/Basic.png) menu. Then we need to edit the time. sleep code.
@@ -58,26 +53,17 @@ Now run your code by clicking on ![Run](Images/Run1.png) and your light should n
 ## Coding the Buttons
 Now that the LED is working, it is time to get the buttons working, so you can detect which player wins. Edit your code to look like the code below.
 
-### Code
 ![Code block 3](Images/Code03.png)  
 
 * To locate the blue code blocks click on ![gpiozero](Images/GPIO_Zero.png) --> ![Inputs](Images/Inputs.png) --> ![Button](Images/Button.png)
 
-<div class="page-break"></div>
-
 ## Writing the Function
 At the end of the code we are now going to add a function, that will be called everytime a button is pressed.
-
-### Code
 
 ![code04](Images/Code04.png)
 
 ## Adding the function to the buttons
 We now need to add code to the buttons, so when they are pressed they call the function that we created
-
-<div class="page-break"></div>
-
-### Code
 
 ![code05](Images/Code05.png)
 
@@ -88,17 +74,10 @@ Lets get players names, so the program will tell you who won, rather than which 
 
 To add the player names locate ![ = ](Images/Blank.png) and edit them to look like the code below.
 
-<div class="page-break"></div>
-
-### Code
-
 ![Code 06](Images/Code06.png)
 
 ## Editing the function
 
 We now need to edit our function to output the name of the winner.
 
-<div class="page-break"></div>
-
-### Code
 ![code 07](Images/Code07.png)
