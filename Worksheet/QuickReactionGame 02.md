@@ -1,5 +1,5 @@
 # Quick Reaction Game
-within this tutorial you will create a quick reaction game using an electronic circuit, that we will create below and we will code it using a Raspberry Pi and EduBlocks.
+Within this tutorial you will create a quick reaction game using an electronic circuit, that we will create below and we will code it using a Raspberry Pi and EduBlocks.
 
 ## Equipment You Will Need
 
