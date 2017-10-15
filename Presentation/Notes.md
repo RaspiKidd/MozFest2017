@@ -12,7 +12,7 @@
 
 * What you should have infront of you.
 
-## Slide 3 - What is a Breadboard
+## Slide 3 - Breadboard
 
 * Temporary prototying device
 
@@ -20,4 +20,26 @@
 
 * Has Strips of Wires inside to connct the holes as shown in Image 2.
 
-## Slide 4 - What is an LED
+## Slide 4 - LED
+
+* Light Emitting Diode is a semiconductor device that lights up when an electric current is passes through it.
+
+* Cathode (-) is the shorter leg of the LED, it is also marked with a flat edge on the plastic.
+
+* Annode (+) is the longer leg of your LED on this diagram it is the leg that is bent.
+
+## Sldie 5 - Resistor
+
+* Resistors are fairly boring, but useful.
+
+* on their own they don't do anything bar get a little warm
+
+* In a circuit like ours they stop too much electric current passing through the LED.
+
+* if the LED gets too much current it can go pop.
+
+## Slide 6 - Button
+
+* We have 2 of these in out Circuit.
+
+* when the buttomn is pressed the circuit is completed as soon as it is released the curcuit is broken.
