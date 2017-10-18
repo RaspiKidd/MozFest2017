@@ -15,7 +15,7 @@ Using the components within this kit create the circuit below.
 
 **NOTE:** *Make sure you have the LED's the right way round. The longer leg is the postive leg, this is marked by a bent leg on the digram.*
 
-![Reaction Diagram](Images/Reaction.png)
+![Reaction Diagram](Images/QuickReaction.png)
 
 <div class="page-break"></div>
 
